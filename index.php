@@ -6,7 +6,10 @@ header("Content-Type: application/json; charset=UTF-8");
 header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
 
 // Conecta a la base de datos  con usuario, contraseña y nombre de la BD
-$servidor = "localhost"; $usuario = "root"; $contrasenia = ""; $nombreBaseDatos = "biblioteca";
+$servidor = "bidkry6mrb47hhgehaiq-mysql.services.clever-cloud.com"; 
+$usuario = "upxxe1minurxe31x"; 
+$contrasenia = "gC6EVybmICcW7fmbGW6E"; 
+$nombreBaseDatos = "bidkry6mrb47hhgehaiq";
 $conexionBD = new mysqli($servidor, $usuario, $contrasenia, $nombreBaseDatos);
 
 //Consular por Id
